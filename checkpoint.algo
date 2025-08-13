@@ -1,0 +1,22 @@
+ALGORITHM sentences contour
+VAR
+    words:INTEGER;
+    sentences:STRING;
+    voyelles:INTEGER;
+    i:INTEGER;
+BEGIN
+FOR i FROM 0 TO sentence.length-1 DO
+    IF (i=" " or i=".") THEN
+        words:=words+1
+      
+    END_IF
+      IF (i:="a" or i="o" or i="e" or i="i" or i="y" i="u") THEN
+        voyelles:=voyelles+1
+
+        
+        END_IF
+END_FOR
+ write(sentences.length)
+    write(words)
+    write(voyelles)
+END
